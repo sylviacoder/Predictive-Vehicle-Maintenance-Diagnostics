@@ -41,7 +41,7 @@ with st.sidebar:
     st.markdown("### Model Engine Status")
     if pipeline is not None:
         st.success("● Inference Engine Active")
-        model_architecture = type(pipeline.named_steps['classifier']).__name__
+        model_architecture = type(pipeline.named_steps['model']).__name__
         st.info(f"Deployed Backend:\n`{model_architecture}`")
     else:
         st.error("❌ Inference Engine Offline")
