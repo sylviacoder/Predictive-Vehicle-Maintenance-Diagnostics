@@ -105,7 +105,7 @@ else:
         else:
             st.markdown(f"""
                 <div class="status-container status-fault">
-                    <h3 style="margin:0 0 5px 0; color:#991B1B;">🚨 FAULT WARNING SIGNATURE IDENTECTED</h3>
+                    <h3 style="margin:0 0 5px 0; color:#991B1B;">🚨 FAULT WARNING SIGNATURE DETECTED</h3>
                     <p style="margin:0; font-size:15px; font-weight:400;">
                         Telemetry signals indicate a severe operational fault profile. Recommend mechanical review of underlying fluid lines or pressure pump efficiency.
                         <br><b>Classification Certainty: {scan_confidence:.2f}%</b>
